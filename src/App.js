@@ -5,18 +5,16 @@ import ParticlesBg from "./components/Paticles/Paticles";
 
 
 
-
-
-
 function App() {
   return (
     <>
-   
+      <GlobalStyle />
       <Header />
-     <ParticlesBg />
+    
+
+      <ParticlesBg />
     </>
   );
 }
-
 
 export default App;
