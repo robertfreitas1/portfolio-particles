@@ -76,7 +76,7 @@ function App() {
         </IntroScreen>
       )}
 
-      {!showIntro && (
+      {!showIntro && ( //teste
         <MainContent>
          
         </MainContent>
